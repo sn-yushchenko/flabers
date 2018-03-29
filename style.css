@@ -1,0 +1,140 @@
+#wrapper{
+    max-width: 100%;
+    background:#fc0;
+    
+}
+.main{
+    display:table;
+    padding:30px 10px;
+    margin: 0 auto;
+    
+}
+#block_send{
+    width:360px;
+    float:left;
+    border: 1px solid black;
+    position:relative;
+}
+#block_receive{
+    width:360px;
+    float:left;
+    margin-left: 20px;
+    border: 1px solid black;
+}
+#result{
+    clear:both;
+}
+.field{ 
+    text-align:right;
+    padding:5px 10px;
+}
+h1{
+    padding:0 10px;
+}
+label {
+    float: left;
+    text-align: right;
+}
+#price{
+    float:left;
+}
+#date{
+    float:left;
+    margin-left:55px;
+}
+.clearfix{
+    clear:both;
+}
+.city_send{
+    background:white;
+    position:absolute;
+    left:158px;
+    top:113px;
+    border-radius:5px;
+    width:188px;
+    display:none;
+}
+input{
+    border-radius:5px;
+    font-size:15px;
+}
+li{
+    font-size:15px;
+}
+.city_send>ul{
+    list-style-type:none;
+    padding:0px;
+    margin-left:10px;
+   
+}
+.city_send>ul>li:hover{
+    color:blue;
+     cursor:pointer;
+}
+.dep_send {
+    background:white;
+    position:absolute;
+    left:158px;
+    top:151px;
+    border-radius:5px;
+    width:188px;
+    display:none;
+}
+.dep_send>ul{
+    list-style-type:none;
+    padding:0px;
+    margin-left:10px;
+}
+.dep_send>ul>li:hover{
+    color:blue;
+     cursor:pointer;
+}
+
+.city_receive {
+    background:white;
+    position:absolute;
+    left:890px;
+    top:152px;
+    border-radius:5px;
+    width:188px;
+    display:none;
+}
+.city_receive>ul{
+    list-style-type:none;
+    padding:0px;
+    margin-left:10px;
+   
+}
+.city_receive>ul>li:hover{
+    color:blue;
+    cursor:pointer;
+}
+.dep_receive {
+    background:white;
+    position:absolute;
+    left:890px;
+    top:189px;
+    border-radius:5px;
+    width:188px;
+    display:none;
+}
+.dep_receive>ul{
+    list-style-type:none;
+    padding:0px;
+    margin-left:10px;
+   
+}
+.dep_receive>ul>li:hover{
+    color:blue;
+     cursor:pointer;
+}
+
+
+#submit {
+    height: 30px;
+    float:right;
+    margin-top:30px;
+    font-size:18px;
+    border-radius: 5px;
+    cursor:pointer;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nova Poshta</title>
+     <link href='style.css' rel='stylesheet' type='text/css'>
+     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+     <script src="script.js"></script>
+</head>
+<style>
+    
+</style>
+<body>
+   <div id="wrapper">
+      
+       <div class="main">
+       
+        <div id="block_send">
+           <h1>Отправитель</h1>
+            <div class="field">
+               <label for="city_send">Город</label>
+               <input type="text" id="city_send"  class="city"/> 
+            </div>
+            <div class="city_send">
+               <ul></ul>
+            </div>
+            <div class="field">
+               <label for="dep_send">№ отделения</label>
+               <input type="text" id="dep_send" class="dep"/>
+            </div>
+            <div class="dep_send">
+               <ul></ul>
+            </div>
+        </div>
+        <div id="block_receive">
+            <h1>Получатель</h1>
+            <div class="field">
+               <label for="city_receive">Город</label>
+               <input type="text" id="city_receive"  class="city"/>
+            </div>
+            <div class="city_receive">
+               <ul></ul>
+            </div>
+            <div class="field">
+               <label for="dep_receive">№ отделения</label>
+               <input type="text" id="dep_receive" class="dep"/>
+            </div>
+            <div class="dep_receive">
+               <ul>
+                   <li>Отделение №1</li>
+               </ul>
+            </div>
+        </div>
+        <div id="result">
+            <div id="price">
+                <h2>Стоимость</h2>
+                <p id="summ"></p>
+            </div>
+            <div id="date">
+                <h2>Ориентировочная дата прибытия груза</h2>
+                <p id="d"></p>
+            </div>
+            <button id="submit">Рассчитать</button>
+            
+        </div>
+        
+        <div class="clearfix"></div>
+    </div>
+   </div>
+</body>
+</html>
